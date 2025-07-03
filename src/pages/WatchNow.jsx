@@ -67,7 +67,7 @@ const WatchNow = () => {
         </button>
       </section>
 
-      <h2 className="text-3xl font-bold mb-5 text-center ">
+      <h2 className="text-3xl font-bold mb-5 text-center pt-20 ">
         Seasons & Episodes
       </h2>
       {/* Seasons & Episodes */}
