@@ -15,7 +15,7 @@ const Contact = () => {
       {/* Contact Form Section */}
       <section className="py-16 px-8">
         <h2 className="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
-        <form className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+        <form className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg text-center">
           <div className="mb-4">
             <input
               type="text"
