@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full flex items-center justify-between py-8 px-10 bg-black/10 backdrop-blur-3xl z-50">
+      <nav className="fixed top-0 left-0 w-full flex items-center justify-between py-8 px-10 bg-black/9 backdrop-blur-3xl z-50">
         <Link to="/">
           <h2 className="text-xl font-lato tracking-widest text-white transition">
             <img
