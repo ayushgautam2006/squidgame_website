@@ -104,7 +104,7 @@ const Home = () => {
 
         <div className="md:w-1/2 flex justify-end md:mt-0">
           <img
-            src="src\pages\1.png"
+            src="https://res.cloudinary.com/dkqavgpy8/image/upload/v1757517524/1_rgh0w1.png"
             alt="Squid Game Guards"
             className="max-w-xs md:max-w-sm lg:max-w-md"
           />
