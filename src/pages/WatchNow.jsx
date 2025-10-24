@@ -15,7 +15,7 @@ const WatchNow = () => {
           rel="noopener noreferrer"
           className="bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-full transition inline-block"
         >
-          Start Watching on Netflix
+          Start Watching on Netflix.
         </a>
       </section>
 
