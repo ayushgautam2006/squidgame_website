@@ -71,13 +71,13 @@ const WatchNow = () => {
         Seasons & Episodes
       </h2>
       {/* Seasons & Episodes */}
-      <section className="py-20 px-8 text-center flex">
+      <section className="py-20 px-8 text-center flex flex-col md:flex-row gap-8 justify-center">
         {/* Season 1 */}
-        <div className="max-w-2xl mx-auto text-left mb-12">
-          <h3 className="text-2xl font-semibold mb-4">
+        <div className="bg-gray-900 p-6 rounded-lg shadow-lg max-w-sm mx-auto md:mx-0">
+          <h3 className="text-2xl font-semibold mb-4 text-center">
             Season 1 (2021) – 9 episodes
           </h3>
-          <ul className="list-decimal list-inside space-y-2">
+          <ul className="list-decimal list-inside space-y-2 text-left">
             <li>Red Light, Green Light</li>
             <li>Hell</li>
             <li>The Man with the Umbrella</li>
@@ -91,11 +91,11 @@ const WatchNow = () => {
         </div>
 
         {/* Season 2 */}
-        <div className="max-w-2xl mx-auto text-left mb-12">
-          <h3 className="text-2xl font-semibold mb-4">
+        <div className="bg-gray-900 p-6 rounded-lg shadow-lg max-w-sm mx-auto md:mx-0">
+          <h3 className="text-2xl font-semibold mb-4 text-center">
             Season 2 (2024) – 7 episodes
           </h3>
-          <ul className="list-decimal list-inside space-y-2">
+          <ul className="list-decimal list-inside space-y-2 text-left">
             <li>Bread and Lottery</li>
             <li>Halloween Party</li>
             <li>001</li>
@@ -104,15 +104,14 @@ const WatchNow = () => {
             <li>O X</li>
             <li>Friend or Foe</li>
           </ul>
-          
         </div>
 
         {/* Season 3 */}
-        <div className="max-w-2xl mx-auto text-left">
-          <h3 className="text-2xl font-semibold mb-4">
+        <div className="bg-gray-900 p-6 rounded-lg shadow-lg max-w-sm mx-auto md:mx-0">
+          <h3 className="text-2xl font-semibold mb-4 text-center">
             Season 3 (2025) – 6 episodes
           </h3>
-          <ul className="list-decimal list-inside space-y-2">
+          <ul className="list-decimal list-inside space-y-2 text-left">
             <li>Keys and Knives</li>
             <li>The Starry Night</li>
             <li>It's Not Your Fault</li>
