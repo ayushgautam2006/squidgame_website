@@ -57,6 +57,17 @@ const Header = () => {
               : 'hidden'
           }`}
         >
+          {/* Close button for mobile menu */}
+          {isOpen && (
+            <button
+              onClick={() => setIsOpen(false)}
+              className="absolute top-8 right-6 text-white text-4xl hover:text-purple-400 transition"
+              aria-label="Close navigation"
+            >
+              &times;
+            </button>
+          )}
+          
           <div className={`flex flex-col md:flex-row gap-8 md:gap-8 items-center text-center text-white ${
             isOpen 
               ? 'text-2xl space-y-8' 
